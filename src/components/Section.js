@@ -1,22 +1,30 @@
 import React from 'react'
 import styled from 'styled-components';
+import FadeIn from 'react-fade-in';
 
 function Section({title , description, backgroungImg, LeftBtnText, RightBtnText}) {
     return (
         <Wrap bgImage = {backgroungImg} >
-            <ItemText>
-                <h1>{ title }</h1>
-                <p>{ description }</p>
-            </ItemText> 
+            <FadeIn>
+                <ItemText>
+                    <h1>{ title }</h1>
+                    <p>{ description }</p>
+                </ItemText>
+            </FadeIn>
+             
             <Buttons>
-                <ButtonGroup>
-                    <LeftButton>
-                        { LeftBtnText }
-                    </LeftButton>
-                    <RightButton>
-                        { RightBtnText }
-                    </RightButton>
-                </ButtonGroup>
+                <FadeIn>
+                    <ButtonGroup>
+                        <LeftButton>
+                            { LeftBtnText }
+                        </LeftButton>
+                        { RightBtnText &&
+                            <RightButton>
+                                { RightBtnText }
+                            </RightButton>
+                        }
+                    </ButtonGroup>
+                </FadeIn>
                 <DownArrow src="/images/down-arrow.svg" alt="Down Arrow" />
             </Buttons>
         </Wrap>
