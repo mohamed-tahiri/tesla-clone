@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tesla-clone/static/css/main.daf2c4f4.chunk.css",
-    "main.js": "/tesla-clone/static/js/main.c2f04273.chunk.js",
-    "main.js.map": "/tesla-clone/static/js/main.c2f04273.chunk.js.map",
+    "main.js": "/tesla-clone/static/js/main.d818e029.chunk.js",
+    "main.js.map": "/tesla-clone/static/js/main.d818e029.chunk.js.map",
     "runtime-main.js": "/tesla-clone/static/js/runtime-main.478f5325.js",
     "runtime-main.js.map": "/tesla-clone/static/js/runtime-main.478f5325.js.map",
     "static/js/2.0ca4f9ae.chunk.js": "/tesla-clone/static/js/2.0ca4f9ae.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.478f5325.js",
     "static/js/2.0ca4f9ae.chunk.js",
     "static/css/main.daf2c4f4.chunk.css",
-    "static/js/main.c2f04273.chunk.js"
+    "static/js/main.d818e029.chunk.js"
   ]
 }
